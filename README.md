@@ -1,7 +1,7 @@
 meteor-foursquare
 =================
 
-Foursquare API package. Only handles the OAuth flow (in conjunction with accounts-foursquare) for now, but could be extended to do actual API things.
+Foursquare API package. Only handles the OAuth flow (in conjunction with [accounts-foursquare](https://atmosphere.meteor.com/package/accounts-foursquare)) for now, but could be extended to do actual API things.
 
 ## Credits
 
