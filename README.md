@@ -1,4 +1,8 @@
 meteor-foursquare
 =================
 
-Foursquare OAuth flow
+Foursquare API package. Only handles the OAuth flow (in conjunction with accounts-foursquare) for now, but could be extended to do actual API things.
+
+## Credits
+
+Closely based on the github package introduced in Meteor 0.6.4
