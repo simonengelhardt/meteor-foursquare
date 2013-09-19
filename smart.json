@@ -1,0 +1,8 @@
+{
+  "name": "foursquare",
+  "description": "Foursquare OAuth flow",
+  "homepage": "https://github.com/SimonEngelhardt/meteor-foursquare",
+  "author": "Simon Engelhardt (https://github.com/SimonEngelhardt)",
+  "version": "0.0.1",
+  "git": "https://github.com/SimonEngelhardt/meteor-foursquare.git"
+}
