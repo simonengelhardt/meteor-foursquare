@@ -62,7 +62,10 @@ var getIdentity = function (accessToken) {
     return HTTP.get(
       "https://api.foursquare.com/v2/users/self", {
         headers: {"User-Agent": userAgent},
-        params: {oauth_token: accessToken}
+        params: {
+          oauth_token: accessToken,
+          v: '20140331'
+        }
       }).data.response.user;
   } catch (err) {
     throw _.extend(new Error("Failed to fetch identity from Foursquare. " + err.message),
